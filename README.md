@@ -6,6 +6,7 @@ Sorting through spectrogram training data for bioacoustics models is a long and 
 ![alt text](image.png)
 
 - birdnet_features – Prepocesses PNG images to format BirdNET accepts (instead of raw audio), extracts feature embeddings.
+![alt text](image-1.png)
 
 ### To visualise and identify outliers in the extracted embeddings, UMAP dimensionality and clustering is applied. Two techniques are then applied to distinguish outliers from the core group:
 - Euclidean Distance from the Centroid – Measures how far each point deviates from the cluster center.
