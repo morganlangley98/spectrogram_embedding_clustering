@@ -6,7 +6,7 @@ import cv2
 #### Model related
 
 # Path to your .tflite BirdNET model file
-model_path = "/Users/morganlangley/Downloads/V2.4/BirdNET_GLOBAL_6K_V2.4_Model_FP32.tflite"
+model_path = "BirdNET_GLOBAL_6K_V2.4_Model_FP32.tflite"
 
 # Load the TFLite model
 interpreter = tf.lite.Interpreter(model_path=model_path)
