@@ -1,5 +1,5 @@
 # Spectrogram Embedding & Clustering
-Sorting through spectrogram training data for bioacoustics models is a long and tedious task. However, having clean training data is critical for achieving good model performance. This notebook outlines two methods to extract features from png spectrogram training data, to help sort out potential outlier training data which impacts the model classification accuracy.
+Sorting through spectrogram training data for bioacoustics models is a long and tedious task. However, having clean training data is critical for achieving good model performance.
 
 ### This repository contains two Jupyter notebooks for spectrogram feature extraction and clustering:
 - VGG16-based Feature Extraction – Uses VGG16 with the final layer removed to extract spectrogram embeddings.
